@@ -1,0 +1,106 @@
+p{
+    color: #ff7f50;
+    font-size: 40px;
+    font-family:  arial, "Times new roman";
+}
+
+body{
+    background-color: #000000;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+}
+
+#div_esquerda{
+    min-height: 200px;
+    width: 68%;
+    float: left;
+    margin-left: 0;
+    margin-right: 2%;
+}
+
+#div_direita{
+    /* background-color: yellow; */
+    min-height: 200px;
+    width: 30%;
+    float: right;
+    /* margin-left: 2%; */
+}
+
+footer{
+    width: 100%;
+    clear: both;
+    /* background-color: blue; */
+    height: 40px;
+    margin: 5px;
+}
+#botao_entrar{
+    align-items: center;
+    margin: 5px;
+    color: white;
+    background-color: #000000;
+    display: flex;
+    /* width: auto 100%; */
+    /* height: auto 100vh; */
+    align-items: center;
+    padding: 1px;
+    margin-top: 15px;
+    float: right;
+
+
+}
+#botao_inscrever{
+    margin: 5px;
+    color: white;
+    background-color: #000000;
+    display: flex;
+    /* width: auto 100%; */
+    /* height: auto 100vh; */
+    align-items: center;
+    padding: 1px;
+    margin-top: 15px;
+    float: right;
+
+
+}
+.botao:hover{
+    cursor: pointer;
+}
+
+#img_logo{
+    /* padding: 5px; */
+    margin: auto;
+    /* color: white;
+    background-color: #000000; */
+    /* display: flex; */
+    width:  10vh ;
+    height: 10vh;
+    /* align-items: center; */
+    /* padding: 1px; */
+    /* margin-top: 15px; */
+}
+
+#menu{
+    padding: 0;
+    margin: 5px;
+    float:right;
+    display: flex;
+    border-radius: 15px;
+    margin: auto;
+
+ 
+}
+
+.blocos{
+    box-sizing: border-box;
+    display: block;
+    width: auto;
+    margin: auto;
+}

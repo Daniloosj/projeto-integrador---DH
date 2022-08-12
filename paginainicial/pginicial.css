@@ -1,0 +1,23 @@
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    background-color: aqua;
+}
+
+.logo_hamburguer{
+    flex-direction: row-reverse;
+
+
+}
+
+body{
+    background-color: rgba(red, green, blue, alpha);
+}
+
+header{
+    background-color: rgba(red, green, blue, alpha);
+}
+
